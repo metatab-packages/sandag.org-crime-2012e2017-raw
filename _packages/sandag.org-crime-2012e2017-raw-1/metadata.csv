@@ -1,0 +1,142 @@
+Declare,metatab-latest
+Title,Raw San Diego County Crime Incidents 2012-2017
+Description,Unprocessed crime incident files from SANDAG
+Identifier,339afaf8-6c93-4ef9-9617-1fbfcd3ca37d
+Name,sandag.org-crime-2012e2017-raw-1
+Dataset,crime
+Origin,sandag.org
+Time,2012e2017
+Space,
+Grain,
+Variant,raw
+Version,1
+Created,2019-05-15T20:16:08
+Modified,2020-11-22T16:25:12
+Issued,2020-11-22T16:25:12
+Giturl,https://github.com/metatab-packages/sdrdl-data-repo.git
+""
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@sandiegodata.org,San Diego Regional Data Library,http://sandiegodata.org
+""
+Section,Documentation,Title,Description,
+Note,This package was automatically created from a CKAN repository,,,
+Documentation,file:README.md,README,,
+""
+Section,References,Name,Description,
+""
+Section,Resources,Name,Description,
+Datafile,data/crime-incidents-2012.csv,crime-incidents-2012,Crime Incidents 2012,
+Datafile,data/crime-incidents-2013.csv,crime-incidents-2013,"Crime Incidents, 2013",
+Datafile,data/crime-incidents-2014.csv,crime-incidents-2014,"Crime Incidents, 2014",
+Datafile,data/crime-incidents-2015.csv,crime-incidents-2015,"Crime Incidents, 2015",
+Datafile,http://ds.civicknowledge.org.s3.amazonaws.com/sandag.org/2015-2019-request.xlsx,crime-incidents-2015-2019-request,"Crime Incidents, 2015, 2019 request",
+Datafile,http://ds.civicknowledge.org.s3.amazonaws.com/sandag.org/2016.xlsx,crime-incidents-2016,"Crime Incidents, 2016",
+Datafile,http://ds.civicknowledge.org.s3.amazonaws.com/sandag.org/2017.xlsx,crime-incidents-2017,"Crime Incidents, 2017",
+""
+Section,Schema,DataType,Description,Has_Codes
+Table,crime-incidents-2012,,,
+Table.Column,reportingyear,integer,,
+Table.Column,reportingmonth,integer,,
+Table.Column,agency,string,,
+Table.Column,activitystatus,string,,
+Table.Column,activitydate,datetime,,
+Table.Column,numberactualreported,integer,,
+Table.Column,block_address,string,,
+Table.Column,city,string,,
+Table.Column,zipcode,integer,,
+Table.Column,censustract,integer,,
+Table.Column,censusblock,integer,,
+Table.Column,crimecategory,string,,
+Table.Column,crimedescription,string,,
+Table,crime-incidents-2013,,,
+Table.Column,reportingyear,integer,,
+Table.Column,reportingmonth,integer,,
+Table.Column,agency,string,,
+Table.Column,activitystatus,string,,
+Table.Column,activitydate,datetime,,
+Table.Column,numberactualreported,integer,,
+Table.Column,block_address,string,,
+Table.Column,city,string,,
+Table.Column,zipcode,integer,,
+Table.Column,censustract,integer,,
+Table.Column,censusblock,integer,,
+Table.Column,crimecategory,string,,
+Table.Column,crimedescription,string,,
+Table,crime-incidents-2014,,,
+Table.Column,reportingyear,integer,,
+Table.Column,reportingmonth,integer,,
+Table.Column,agency,string,,
+Table.Column,activitystatus,string,,
+Table.Column,activitydate,datetime,,
+Table.Column,numberactualreported,integer,,
+Table.Column,block_address,string,,
+Table.Column,city,string,,
+Table.Column,zipcode,integer,,
+Table.Column,censustract,integer,,
+Table.Column,censusblock,integer,,
+Table.Column,crimecategory,string,,
+Table.Column,crimedescription,string,,
+Table,crime-incidents-2015,,,
+Table.Column,reportingyear,integer,,
+Table.Column,reportingmonth,integer,,
+Table.Column,agency,string,,
+Table.Column,activitystatus,string,,
+Table.Column,activitydate,datetime,,
+Table.Column,numberactualreported,integer,,
+Table.Column,block_address,string,,
+Table.Column,city,string,,
+Table.Column,zipcode,integer,,
+Table.Column,censustract,integer,,
+Table.Column,censusblock,integer,,
+Table.Column,crimecategory,string,,
+Table.Column,crimedescription,string,,
+Table,crime-incidents-2015-2019-request,,,
+Table.Column,2015_0,integer,,
+Table.Column,carlsbad,string,,
+Table.Column,open_workable,string,,
+Table.Column,apr_1_2014_10_00am,datetime,,
+Table.Column,10717978_0,integer,,
+Table.Column,1_0,integer,,
+Table.Column,1900_block_silverleaf_circle,string,,
+Table.Column,carlsbad,string,,
+Table.Column,92009_0,integer,,
+Table.Column,_017601,string,,
+Table.Column,_03026,string,,
+Table.Column,larceny_400,string,,
+Table.Column,larceny_400_other,string,,
+Table.Column,col13,string,,
+Table.Column,col14,integer,,
+Table,crime-incidents-2016,,,
+Table.Column,reportingyear,integer,,
+Table.Column,reportingmonth,integer,,
+Table.Column,agency,string,,
+Table.Column,activitystatus,string,,
+Table.Column,activitydate,datetime,,
+Table.Column,numberactualreported,integer,,
+Table.Column,block_address,string,,
+Table.Column,city,string,,
+Table.Column,zipcode,integer,,
+Table.Column,censustract,string,,
+Table.Column,censusblock,string,,
+Table.Column,crimecategory,string,,
+Table.Column,crimedescription,string,,
+Table,crime-incidents-2017,,,
+Table.Column,reportingyear,integer,,
+Table.Column,reportingmonth,integer,,
+Table.Column,agency,string,,
+Table.Column,activitystatus,string,,
+Table.Column,activitydate,datetime,,
+Table.Column,numberactualreported,integer,,
+Table.Column,block_address,string,,
+Table.Column,city,string,,
+Table.Column,zipcode,integer,,T
+Table.Column,censustract,string,,
+Table.Column,censusblock,string,,
+Table.Column,crimecategory,string,,
+Table.Column,crimedescription,string,,
+""
+Section,Sources,Name,Description,Hash
+Datafilesource,http://ds.civicknowledge.org.s3.amazonaws.com/sandag.org/2012.xlsx,crime-incidents-2012,Crime Incidents 2012,b16c9e20113c3759a5165fe5bba5e537
+Datafilesource,http://ds.civicknowledge.org.s3.amazonaws.com/sandag.org/2013.xlsx,crime-incidents-2013,"Crime Incidents, 2013",94ff683bad4b7be13cf2a6ea72d2d20a
+Datafilesource,http://ds.civicknowledge.org.s3.amazonaws.com/sandag.org/2014.xlsx,crime-incidents-2014,"Crime Incidents, 2014",f92806c65d9dbe531541e6415acd5c40
+Datafilesource,http://ds.civicknowledge.org.s3.amazonaws.com/sandag.org/2015.xlsx,crime-incidents-2015,"Crime Incidents, 2015",035bb440b1286930a9a7ac57bc681b77

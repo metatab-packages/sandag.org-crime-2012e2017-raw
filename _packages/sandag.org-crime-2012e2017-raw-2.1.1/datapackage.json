@@ -1,0 +1,385 @@
+{
+    "declare": "metatab-latest",
+    "title": "Raw San Diego County Crime Incidents 2012-2017",
+    "description": "Unprocessed crime incident files from SANDAG",
+    "identifier": "339afaf8-6c93-4ef9-9617-1fbfcd3ca37d",
+    "name": "sandag.org-crime-2012e2017-raw-2.1.1",
+    "dataset": "crime",
+    "origin": "sandag.org",
+    "time": "2012e2017",
+    "space": null,
+    "grain": null,
+    "variant": "raw",
+    "version": {
+        "major": "2",
+        "minor": "1",
+        "patch": "1",
+        "@value": "2.1.1"
+    },
+    "created": "2019-05-15T20:16:08",
+    "modified": "2020-11-22T16:32:49",
+    "issued": "2020-11-22T16:32:49",
+    "giturl": "https://github.com/metatab-packages/sdrdl-data-repo.git",
+    "resources": [
+        {
+            "path": "data/crime-incidents-2012.csv",
+            "name": "crime-incidents-2012",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "reportingYear",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "reportingMonth",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "agency",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activityStatus",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activitydate",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "numberActualReported",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "BLOCK_ADDRESS",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zipCode",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusTract",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusBlock",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "CrimeCategory",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeDescription",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/crime-incidents-2013.csv",
+            "name": "crime-incidents-2013",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "reportingYear",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "reportingMonth",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "agency",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activityStatus",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activitydate",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "numberActualReported",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "BLOCK_ADDRESS",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zipCode",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusTract",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusBlock",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "CrimeCategory",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeDescription",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/crime-incidents-2014.csv",
+            "name": "crime-incidents-2014",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "reportingYear",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "reportingMonth",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "agency",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activityStatus",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activitydate",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "numberActualReported",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "BLOCK_ADDRESS",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zipCode",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusTract",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusBlock",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "CrimeCategory",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeDescription",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/crime-incidents-2015.csv",
+            "name": "crime-incidents-2015",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "reportingYear",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "reportingMonth",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "agency",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activityStatus",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activitydate",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "numberActualReported",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "BLOCK_ADDRESS",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zipCode",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusTract",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusBlock",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "CrimeCategory",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeDescription",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/crime-incidents-2016.csv",
+            "name": "crime-incidents-2016",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "reportingYear",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "reportingMonth",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "agency",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activityStatus",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activitydate",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "numberActualReported",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "BLOCK_ADDRESS",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zipCode",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusTract",
+                        "type": "string"
+                    },
+                    {
+                        "name": "censusBlock",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeCategory",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeDescription",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "data/crime-incidents-2017.csv",
+            "name": "crime-incidents-2017",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "reportingYear",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "reportingMonth",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "agency",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activityStatus",
+                        "type": "string"
+                    },
+                    {
+                        "name": "activitydate",
+                        "type": "datetime"
+                    },
+                    {
+                        "name": "numberActualReported",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "BLOCK_ADDRESS",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    },
+                    {
+                        "name": "zipCode",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "censusTract",
+                        "type": "string"
+                    },
+                    {
+                        "name": "censusBlock",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeCategory",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CrimeDescription",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}

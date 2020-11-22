@@ -1,0 +1,8 @@
+last_hashes:
+  crime-incidents-2012: 95155f09032df09ece243991fb71c984
+  crime-incidents-2013: 8f076e424f084878d0f5e6d460b5afd3
+  crime-incidents-2014: c9e716a82dd81eb49ba6f30b8214696e
+  crime-incidents-2015: b1e079c4fb201d4a9703ca4f16e22d67
+  crime-incidents-2016: 77ae91e9b01bfdced0d719c556ae7fd8
+  crime-incidents-2017: 716e2e9d206267cca926d8eec90bac6f
+last_package: metapack+file:///Users/eric/proj/data-projects/sdrdl-data-repo/non-mt-packages/crime-incidents-2012-2015/_packages/sandag.org-crime-2012e2017-raw-2.1.1/metadata.csv
